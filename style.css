@@ -1,0 +1,116 @@
+@font-face {
+  font-family: outfit;
+  src: url("../fonts/Outfit/static/Outfit-Light.woff2") format("woff2"),
+      url("../fonts/Outfit/static/Outfit-Light.woff") format("woff");
+      font-weight: 300;
+      font-style: normal;
+}
+@font-face {
+  font-family: outfit;
+  src: url("../fonts/Outfit/static/Outfit-Regular.woff2") format("woff2"),
+      url("../fonts/Outfit/static/Outfit-Regular.woff") format("woff");
+      font-weight: 400;
+      font-style: normal;
+}
+@font-face {
+  font-family: outfit;
+  src: url("../fonts/Outfit/static/Outfit-SemiBold.woff2") format("woff2"),
+      url("../fonts/Outfit/static/Outfit-SemiBold.woff") format("woff");
+      font-weight: 600;
+      font-style: normal;
+}
+*{
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,p{
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: outfit, sans-serif;
+  font-size: 18px;
+  background-color: rgb(13,26,45);
+}
+.wrapper{
+  max-width: 1440px;
+  position: relative;
+}
+.card{
+  max-width: 350px;
+  max-height: 600px;
+  border-radius: 10px;
+  position: absolute;
+  top: calc(50vh - (600px/2));
+  left: calc(50vw - (350px/2));
+  box-shadow: 0 15px 0 15px rgb(12,23,41);
+  background-color: rgb(21,39,63);
+  padding: 25px;
+  overflow: hidden;
+}
+.equilibrium_jpg{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.contaner{
+  max-width: 300px;
+}
+.body_card{
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(47,65,89);
+  /* margin: 20px 0; */
+}
+.title__ h1{
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 25px;
+}
+.text__ p{
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 18px;
+  margin: 20px 0;
+}
+.ethereum_row{
+  display: flex;
+  justify-content: space-between
+}
+.indicator{
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+}
+.ethereum_icon{
+  margin-right: 5px;
+}
+.lifetime{
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+
+  display: flex;
+  align-items: center;
+}
+.clock_icon{
+  margin-right: 5px;
+}
+.footer{
+  margin-top: 15px;
+}
+.footer_row{
+  display: flex;
+  align-items: center;
+}
+.author{
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+}
+.author_name{
+  margin-left: 5px;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+}
